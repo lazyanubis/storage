@@ -391,7 +391,7 @@ export abstract class BaseStorage {
   }
 
   async setItems(items: Record<string, any>) {
-    await await this.setMany(items)
+    await this.setMany(items)
   }
 
   /**
